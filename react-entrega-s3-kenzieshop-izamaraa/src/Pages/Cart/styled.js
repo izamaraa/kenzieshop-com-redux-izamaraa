@@ -5,6 +5,7 @@ export const ContainerCart = styled.div`
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
+  height: 100vh;
 `;
 
 export const DivCart = styled.div`
@@ -30,6 +31,19 @@ export const DivCart = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+
+  button {
+    border: none;
+    margin: 2px;
+    background-color: lightgray;
+    font-size: 20px;
+    :active {
+      background-color: aliceblue;
+    }
   }
   /* @media (min-width: 750px) {
     p {

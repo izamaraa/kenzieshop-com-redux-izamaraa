@@ -21,6 +21,9 @@ export const Div = styled.div`
     border-radius: 10px;
     width: 60px;
     font-size: 12px;
+    :active {
+      background-color: aliceblue;
+    }
   }
 
   .box-preco {

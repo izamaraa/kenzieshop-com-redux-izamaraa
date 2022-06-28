@@ -1,6 +1,9 @@
-.container {
+body {
   background-image: url("https://thumbs.dreamstime.com/b/padr%C3%A3o-de-livros-abertos-e-caf%C3%A9-em-fundo-verde-claro-para-uma-livraria-ou-biblioteca-amantes-um-pode-ser-usado-papel-parede-218517718.jpg");
-  height: 100vh;
+}
+
+.container {
+  height: 100%;
   width: 100vw;
 }
 .App-logo {

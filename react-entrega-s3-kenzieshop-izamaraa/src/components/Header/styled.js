@@ -11,8 +11,12 @@ export const HeaderPgInicial = styled.header`
   button {
     margin-right: 20px;
     border: none;
+    border-radius: 10px;
     background-color: lightgray;
     font-size: 20px;
+    :active {
+      background-color: aliceblue;
+    }
   }
   button:hover {
     cursor: pointer;

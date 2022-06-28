@@ -24,7 +24,7 @@ export default function Cart() {
     <>
       <HeaderPgInicial>
         <h1>Kenzie shop</h1>
-        <button onClick={() => history.push("/")}>voltar</button>
+        <button onClick={() => history.push("/")}>Voltar</button>
       </HeaderPgInicial>
       <ContainerCart>
         <DivCart>

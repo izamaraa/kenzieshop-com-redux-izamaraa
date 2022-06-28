@@ -9,5 +9,5 @@ export const TotalPrice = () => {
     0
   );
 
-  return <p> valor total : {totalCart.toFixed(2)}</p>;
+  return <p> Valor total : R$ {totalCart.toFixed(2)}</p>;
 };
